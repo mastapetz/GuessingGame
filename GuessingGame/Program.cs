@@ -33,8 +33,8 @@ namespace GuessingGame
         static void Main(string[] args)
         {
             Guess secretNum = new Guess(); // Guess == Wuerfel
-            //testausgabe
             secretNum.randomizer();
+            //testausgabe
             //Console.WriteLine("Ergebnis: " + secretNum.getSecretNumber());
             //--------------------------------------------
 
@@ -80,14 +80,16 @@ namespace GuessingGame
                 }
 
             } while (tryNumber > 0);
-
-
-
-
-
         }
     }
 }
+
+/* Von Hier an:
+ * Funktions Kontrolle von codes anhand von anderen Beispielen,
+ * extra Idee die entweder zu lang waren oder nicht funktional,
+ * */
+
+
 //public void gameStart()
 //{
 //    Console.WriteLine("Welche Zahl zwischen 1 und 20 ist es.");
